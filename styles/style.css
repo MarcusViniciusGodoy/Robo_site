@@ -1,0 +1,27 @@
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: rgb(251, 255, 255);
+    color: #F6F6F6;
+}
+
+.cabecalho{
+    background-color: black;
+    padding: 24px;
+}
+
+.cabecalho_links{
+    color: white;
+    font-size: 24px;
+    padding: 2% 0 0 10%;
+    text-decoration: none;
+}
+
+.rodape {
+    background-color: black;
+    padding: 15px;
+    text-align: center;
+    font-size: 24px;
+    color: aliceblue;
+    position: sticky;
+}
