@@ -1,8 +1,14 @@
+:root{
+    --cor-primaria: black;
+    --cor-secundaria: white;
+    --cor-terciaria: aliceblue;
+}
+
 body {
     height: 100vh;
     box-sizing: border-box;
-    background-color: rgb(251, 255, 255);
-    color: #F6F6F6;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
 }
 
 .cabecalho{
@@ -11,17 +17,17 @@ body {
 }
 
 .cabecalho_links{
-    color: white;
+    color: var(--cor-secundaria);
     font-size: 24px;
     padding: 2% 0 0 10%;
     text-decoration: none;
 }
 
 .rodape {
-    background-color: black;
+    background-color: var(--cor-primaria);
     padding: 15px;
     text-align: center;
     font-size: 24px;
-    color: aliceblue;
+    color: var(--cor-primaria);
     position: sticky;
 }
