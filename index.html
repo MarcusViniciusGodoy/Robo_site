@@ -7,12 +7,17 @@
     <title>Robô</title>
 </head>
 <body>
-    <section>
-        <div class="log_page">
-            <h1>Tela de Login</h1>
-            <a>Usuário:</a>
-            <a>Senha:</a>
-        </div>
-    </section>
+    <div class="page">
+        <form method="POST" class="formLogin">
+            <h1>Login</h1>
+            <p>Digite os seus dados de acesso no campo abaixo.</p>
+            <label for="email">Usuário</label>
+            <input type="email" placeholder="Digite nome usuário" autofocus="true" />
+            <label for="password">Senha</label>
+            <input type="password" placeholder="Digite sua senha" />
+            <a href="/">Esqueci minha senha</a>
+            <input type="submit" value="Acessar" class="btn" />
+        </form>
+    </div>
 </body>
 </html>
